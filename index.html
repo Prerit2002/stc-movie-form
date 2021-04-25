@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Movie Ticket </h1>
+        <form action="" class="form">
+            <input type="text" placeholder="name" name="name">
+            <input list="movies" placeholder="Choose Movie" name="movie" class="movies">
+            <datalist id="movies">
+            <option value="Movie1">
+            <option value="Movie2">
+            <option value="Movie3">
+            <option value="Movie4">
+            <option value="Movie5">
+        </datalist>
+        <input type="text" name="tickets" placeholder="No. of tickets">
+        <button type="submit" target="blank"  >Submit</button>
+        <h3>Cost of one ticket =</h3>
+        <p class="cost"></p>
+        <h3>Cost of tickets =</h3>
+        <p class="costtotal"></p>
+
+        </form>
+        <table>
+            <td><div class="name">Name</div></td> 
+            <td> <div class="movie-name">Movie Name</div> </td>
+            <td><div class="ticket">Tickets</div></td> 
+            <td><div class="costs">Cost</div></td> 
+        </table>
+    </div>
+   
+   
+    <script type="text/javascript" src="abc.js"></script>
+   
+</body>
+</html>
